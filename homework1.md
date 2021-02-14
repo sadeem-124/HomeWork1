@@ -103,7 +103,7 @@ arrange(species,n)
 \`5. What names are more common for cats than dogs? The ones above the
 line or the ones below the line?
 
-Answer here
+The ones below the line (Oliver and Lily)
 
 (4 points)
 
@@ -111,6 +111,7 @@ Answer here
 with a given name and proportion of dogs with a given name) positive or
 negative? What does this mean in context of the data?
 
-Answer here
+It is a positive Correlation but NOT perfect because the frequency of
+dogs name is larger than cat names
 
 (4 points)
