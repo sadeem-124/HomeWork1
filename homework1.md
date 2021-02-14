@@ -72,6 +72,34 @@ Luna 355
 
 (10 points)
 
+``` r
+seattlepets %>%
+group_by(species) %>%
+count(animal_name, sort = TRUE) %>%
+  arrange(species,n)%>%
+  slice_max(n, n = 5)
+```
+
+    ## # A tibble: 53 x 3
+    ## # Groups:   species [4]
+    ##    species animal_name     n
+    ##    <chr>   <chr>       <int>
+    ##  1 Cat     <NA>          406
+    ##  2 Cat     Luna          111
+    ##  3 Cat     Lucy          102
+    ##  4 Cat     Lily           86
+    ##  5 Cat     Max            83
+    ##  6 Dog     Lucy          337
+    ##  7 Dog     Charlie       306
+    ##  8 Dog     Bella         249
+    ##  9 Dog     Luna          244
+    ## 10 Dog     Daisy         221
+    ## # … with 43 more rows
+
+Actually what i noticed is : using slice\_max(n, n = 5) after arrange it
+give me the same result regardless using arrange(species,n) or
+arrange(species,n)
+
 \`5. What names are more common for cats than dogs? The ones above the
 line or the ones below the line?
 
