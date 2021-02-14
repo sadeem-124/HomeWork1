@@ -49,9 +49,19 @@ There are 7 variables (license_issue_date-license_number-animal_name-species-pri
 (4 points)
 
 ```{r}
+seattlepets %>%
+count(animal_name, sort = TRUE)
 
 ```
-Write your narrative here
+The three most common pet names are: 
+
+Name  frequency
+
+---------------
+
+Lucy  	439			
+Charlie	387			
+Luna  	355	
 
 
 
