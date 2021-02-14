@@ -41,7 +41,7 @@ There are 52519 pets (same number of rows in dataset)
 ```{r}
 
 ```
-Write your narrative below
+There are 7 variables (license_issue_date-license_number-animal_name-species-primary_breed-secondary_breed-zip_code)
 
 
 `3. Copy the code provided in the homework documentation and paste it here. 
