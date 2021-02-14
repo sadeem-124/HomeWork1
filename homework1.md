@@ -24,7 +24,7 @@ library(ggrepel)
 
 (4 points)
 
-Write your narrative here
+There are 52519 pets (same number of rows in dataset)
 
 \`2.
 
